@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>cover</title>
+    <style type="text/css">
+
+*{
+  font-family: arial;
+   scroll-behavior: smooth;
+   margin: 0;
+   text-decoration: none;
+}
+      /* navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #1f1d36;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: 0px;
+  box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
+
+}
+
+/* link navbar */
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 4px 8px;
+    text-decoration: none;
+    margin-top: 17px;
+    margin-right: 12px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 9px;
+    transition: 0.5s;
+    text-decoration: none;
+
+  }
+
+/* merubah warna background link ketika mouse lewat */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.navbar>img {
+    width: 48px;
+    height: auto;
+    float: left;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-left: 18px;
+    margin-bottom: 7px;
+
+ } 
+    .foto img{
+        float: left;
+        width: 239px;
+        margin-top: 120px;
+        margin-left: 185px;
+      }
+      .perkenalan{
+        font-size: 21px;
+        padding-top: 25px;
+        line-height: 30px;
+        margin: 55px 69px 0px 441px;
+        color: white;
+        background-size: ;
+      }
+      .perkenalan h1{
+         color: #ff8216;
+        text-shadow: 0 3px 3px black;
+        margin-left: 9px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+          }
+      .perkenalan h2{
+            margin-left: 11px;
+            margin-top: 111px;
+            text-shadow: 0 3px 3px black;
+      }
+      .perkenalan p{
+        font-size: 17px;
+        margin-left: 10px;
+      
+      }
+      .infocontact{
+        padding-top: 10px;
+      }
+
+
+#About{
+  padding: 33px;
+}
+.About-me{
+   font-size: 35px;
+    background-color: #1f1d36;
+    
+    width: 246px;
+    padding-top: 6px;
+    border-radius: 0px 76px 0px 0px;
+    color: white;
+    height: 49px;
+    padding-left: 38px;
+
+  
+}
+.home{
+  
+        
+        margin: auto;
+        background-image: url(backgoround1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 640px; 
+        
+
+}
+#sertifikat{
+  padding: 35px;
+  background-color: gray;
+}
+.sertifikat{
+          font-size: 20px;
+          background-color: #b77542;
+
+}
+.judul-sertifikat{
+  background: #1f1d36;
+    width: 197px;
+    color: white;
+    font-weight: bold;
+    font-size: 31px;
+    margin-left: -2px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left: 49px;
+    border-radius: 0px 52px 0px 0px
+}
+
+footer{
+  background-color: #283d45;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+   font-size: 15px;
+    color: #3b525b;
+}
+.pendidikan{
+  font-size: 25px;
+  background-color: #304c57;
+}
+ 
+
+.pendidikan>ul{
+  color: #ff8216;
+    padding-left: 109px;
+    padding-top: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.table-pendidikan{
+    font-family: sans-serif;
+    color: black;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 20px;
+}
+.table-pendidikan{
+  margin-left: 81px;
+    margin-top: 16px;
+padding-bottom: 16px;
+}
+.table-pendidikan, th, td{
+    border: 1px solid #000000;
+    padding: 8px 20px;
+    background-color: white;
+}
+.table-pendidikan th{
+    background-color: #f16051;
+}
+.pengalaman{
+  background-color: #304c57;
+
+}
+.judul-pengalaman{
+  color: #ff8216;
+    font-weight: bl;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 60px;
+    padding-top: 39px;
+}
+.isi-pengalaman{
+  margin-top: 20px;
+    color: white;
+    margin-left: 76px;
+    font-size: 18px;
+    padding-right: 305px;
+    line-height: 22px;
+
+}
+.Prestasi{
+  background-color: #304c57;
+}
+.judul-prestasi{
+  color: #ff8216;
+    font-weight: bl;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 60px;
+    padding-top: 39px;
+}
+.isi-prestasi{
+   margin-top: 20px;
+    color: white;
+    margin-left: 76px;
+    font-size: 18px;
+    padding-right: 305px;
+    line-height: 22px;
+}
+.ispirasi{
+   background-color: #304c57;
+   height: 300px;
+}
+.judul-inspirasi{
+    color: #ff8216;
+    font-weight: bl;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 60px;
+    padding-top: 39px;
+}
+.isi-inspirasi{
+  padding-left: 72px;
+    padding-right: 481px;
+    margin-top: 30px;
+}
+.isi-inspirasi, table{
+  border-spacing: 0;
+}
+.isi-inspirasi>table, th{
+  background-color: #f16051;
+}
+.mySlides {display:none;}
+
+.conten-item{
+  float: left;
+  margin-right:15px;
+  margin-top: 10px;
+  width: 45px;
+}
+.icon{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.conten-item>.wa{
+  background-color: #32c720;;
+    padding-left: 7px;
+    padding-top: 4px;
+    border-radius: 7px;
+    padding-bottom: 2px;
+}
+.conten-item>.ig{
+  background-color:rgb(251, 173, 80);
+    padding-left: 7px;
+    padding-top: 4px;
+    border-radius: 7px;
+    padding-bottom: 2px;
+}
+.conten-item>.gmail{
+  background-color: #873522;
+    padding-left: 5px;
+    padding-top: 2px;
+    border-radius: 7px;
+    padding-bottom: 1px;
+    margin-top: 2px;
+
+}
+.conten-item>.linkedin{
+  background-color: #084c84;
+    padding-left: 7px;
+    padding-top: 4px;
+    border-radius: 7px;
+    padding-bottom: 2px;
+}
+.conten-item:hover {
+
+  text-shadow: 0 2px 2px black;
+}
+
+/*.art{
+  display: flex; */
+   
+    font-size: 20px;
+  
+    color: orange;
+    background-color:#747f83c7;
+
+}*/
+/*#art{
+  padding-top: 70px;
+}
+.judul-art{
+  background: #1f1d36;
+    color: white;
+    width: 147px;
+   
+    padding-left: 74px;
+    height: 41px;
+    padding-top: 13px;
+    margin-bottom: 12px;
+    border-radius:  0px 48px 0px 0px;
+}
+
+div.polaroid {
+  width: 15%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+*/
+
+  
+}
+/*.isi-art{
+  display: flex;
+  padding: 50px;
+  margin-left: 50px;
+
+}*/
+
+</style>
+</head>
+
+
+
+
+
+
+  <body>
+
+        <div class="navbar">
+
+
+       <!--  <a href="#art">Art</a> -->
+     <!--    <a href="#sertifikat">Certificate</a> -->
+        <a href="#About">About</a>
+        <a href="#home">Home</a>
+
+
+
+
+        <img src="logo.png">
+
+        </div>
+ 
+<main>
+  <section>
+    <div id="home" class="home">
+
+      <div class="foto">
+      <img src="astifoto.png">
+    </div>
+
+    <div class="perkenalan">
+      <h2>  Hi I am</h2>
+      <h1> Siti Astiya Nurhayati</h1>
+      <p>Siswi kelas 10 <b>Program Keahlian Pengembangan Perangkat Lunak dan Gim (PPLG) SMK Wikrama Bogor</b>.
+      <br>Saya sedang mengembangkan keahlian diri dalam bidang Front End Development dan saya senang mengeksplor hal-hal baru.</p>
+      <p class="infocontact">Hubungi saya melalui:</p>
+
+      <div class="icon">
+<!-- <div class="conten-item">
+  <div class="linkedin" >
+<i class="fa fa-linkedin-square" style="font-size:36px"></i>
+</div>
+</div> -->
+
+
+<div class="conten-item">
+  <div class="wa">
+    <a href="https://api.whatsapp.com/send?phone=6285694031604
+">
+<i class="fa fa-whatsapp" style="font-size:36px;color: white;"></i></a>
+</div>
+</div>
+
+<div class="conten-item">
+  <div class="ig">
+    <a  target="_blank" href="https://instagram.com/astiynn_?utm_medium=copy_link">
+<i class="fa fa-instagram" style="font-size:36px;color:white;"></i></a>
+</div>
+</div>
+
+
+<div class="conten-item">
+  <div class="gmail">
+    <a href= "mailto: astiyanurhayati18@gmail.com">
+<i class="fa fa-envelope" style="font-size:36px;color:white;" ></i></a>
+</div>
+</div>
+</div>
+
+
+  </section>
+
+
+  <section >
+    <div id="About"></div>
+      <h1 class="About-me">About Me</h1>
+
+      <div class="pendidikan">
+       <ul>
+         <li> Pendidikan</li>
+       </ul>
+      <table class="table-pendidikan">
+      <tr>
+        <th>Sekolah</th>
+        <th>Tahun</th>
+      </tr>
+      <tr>
+        <td>SMK Wikrama Bogor</td>
+        <td>2021--Sekarang</td>
+      </tr>
+      <tr>
+        <td>SMP Negeri 2 Megamendung</td>
+        <td>2018--2021</td>
+      </tr>
+      <tr>
+        <td>SD Negeri Sukamanah 2</td>
+        <td>2012--2018</td>
+      </tr>
+    </table>
+  </div>
+<div class="pengalaman">
+   <div class="judul-pengalaman">
+    <ul>
+      <li>Pengalaman Organisasi</li>
+    </ul>
+    </div>
+  <div class="isi-pengalaman">
+    <ul>  
+      <li><b>Pengurus Pencak Silat Paku Bumi, SMPN 02 Megamendung</b> <br>
+      Mengkoordinasikan tim pencak silat untuk melaksakan latihan, dan bertanggung jawab dalam mendata kerapihan dalam berpakaian. </li>
+
+      <li><b>Bendahara di kelas 8 SMPN 2 megamendung</b><br>
+      Bertanggung jawab pada pencatatan keuangan, baik uang masuk maupun uang keluar.
+      Bertanggung jawab pada laporan keuangan </li>
+    </ul>
+  </div>
+</div>
+<div class="Prestasi">
+<div class="judul-prestasi"><ul> 
+  <li>Prestasi</li>
+  <ul></div>  
+<div class="isi-prestasi">
+    <ul>
+      <li>Juara  kelas ke-1 berturut-turut dari kelas 7-9 di SMPN 02 Mengamendung</li>
+      <li>Juara umum terbaik ke-7, SMPN 02 Megamendung </li>
+      <li>Juara ke-1 Pencak Silat Tunggal Putri tinggat internasional</li>
+    </ul>
+</div>
+</div>
+<div class="ispirasi">
+<div class="judul-inspirasi"><ul> 
+<li>Inspirasi</li>
+</ul></div>
+<div class="isi-inspirasi">
+  <table>
+  <thead>
+    <tr>
+      <th>Kejar.id</th>
+      <th>Code.org</th>
+      <th>Canva.com</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kejar.id menyediakan konten pembelajaran<br>
+          dan sistem informasi sekolah.</td>
+      <td>Code.org menyediakan konten belajar<br>
+          pemograman menggunakan block.</td>
+      <td>Menyediakan fitur desain grafis seeperti poster, banner, pamflet dll, dengan cepat dan hasilnya memuaskan</td>        
+    </tr>
+    
+  </tbody>
+</table>
+
+  </div>  
+</div>
+ <!--  </section>
+
+   <section>
+<div id="art" class="art">
+  <div class="judul-art">
+      <h1>My Art</h1>
+ </div>
+
+  <div class="isi-art">
+
+  <div class="polaroid">
+  <img src="art/art8.png" alt="Norway" style="width:100%">
+  
+  </div>
+
+  <div class="polaroid">
+  <img src="art/art2.jpg" alt="Norway" style="width:100%">
+  
+  </div>
+
+  <div class="polaroid">
+  <img src="art/art10.png"   alt="Norway" style="width:100%">
+  
+  </div>
+
+  <div class="polaroid">
+  <img src="art/art12.png" alt="Norway" style="width:100%">
+  
+  </div>
+
+  <div class="polaroid">
+  <img src="art/art11.jpg" alt="Norway" style="width:100%">
+  </div>
+
+  </div>  
+</div>
+  </section> -->
+
+
+
+
+        
+
+
+    <footer>
+      <h1>Siti Astiya Nurhayati - 2021</h1>
+    </footer>
+
+</body>   
+    </html>
